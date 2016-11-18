@@ -1,0 +1,88 @@
+.jumbotron {
+  background-color: transparent;
+  color: white;
+  text-align: center;
+}
+
+body {
+  font-family: monospace;
+  background-color: #534292;
+}
+
+form {
+  text-align: center;
+}
+
+.radio-inline input{
+  visibility: hidden;
+}
+
+.radio-inline label {
+  color: #fff;
+  font-size: 1.2em;
+  margin-top: 5%;
+}
+
+.radio-inline label:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+input[type="radio"]:checked + label {
+  border: 2px solid #fff;
+}
+
+#find-match {
+  background-color: #fff;
+  color: #534292;
+  border-color: #fff;
+  margin-top: 10%;
+}
+
+footer {
+  color: #fff;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+#footer-row {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%,0);
+}
+
+/***************************
+
+PAGE: WORD_COUNT_OUTPUT
+
+****************************/
+
+#user-results {
+  color: #fff;
+}
+
+#confirmation {
+  margin-top: 25%;
+}
+
+span {
+  font-size: 1.5em;
+}
+
+span2 {
+  font-size: 1.7em;
+  font-style: italic;
+}
+
+span3 {
+  font-size: 1.5em
+}
+
+#result {
+  margin-top: 25%;
+}
+
+span4 {
+  font-size: 2em
+}

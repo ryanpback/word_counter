@@ -1,17 +1,18 @@
-<form action="/word_finder">
+<form action="/word_finder" autocomplete="off">
  <div class="form-group">
-   <input id="user_string" class="form-control" type="text" name="user_string" placeholder="Enter your string">
+   <input id="user_string" class="form-control" type="text" name="user_string" placeholder="Enter your string" required>
  </div>
  <div class="form-group">
-   <input id="word_select" class="form-control" type="text" name="word_select" placeholder="Enter the word you want to count">
+   <input id="word_select" class="form-control" type="text" name="word_select" placeholder="Enter the word you want to count" required>
  </div>
- <div class="radio">
+ <div class="radio-inline">
   <input id="exact_select" type="radio" name="select" value="exact" checked>
   <label for="exact_select">Find Exact Match</label>
 </div>
-<div class="radio">
+<div class="radio-inline">
   <input id="partial_select" type="radio" name="select" value="partial">
   <label for="partial_select">Find Partial Matches</label>
 </div>
-<button type="submit" class="btn-success">Button Text</button>
+<br>
+<button id="find-match" type="submit" class="btn btn-success">Find Match!</button>
 </form>

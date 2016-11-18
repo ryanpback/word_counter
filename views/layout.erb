@@ -11,7 +11,18 @@
       <div class="jumbotron">
         <h1>Word Counter</h1>
       </div>
-      <%= yield %>
-    </div>
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+          <%= yield %>
+        </div>
+      </div> <!-- .row -->
+      <div id="footer-row" class="row">
+        <div class="col-md-12">
+          <footer>
+            <p>Copyright &copy; Ryan Back 2016</p>
+          </footer>
+        </div> <!-- .col -->
+      </div> <!-- #footer-row -->
+    </div> <!-- .container -->
   </body>
 </html>

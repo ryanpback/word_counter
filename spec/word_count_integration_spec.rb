@@ -9,7 +9,7 @@ describe('word_count_output path', {:type => :feature}) do
     fill_in('user_string', :with => 'hello there')
     fill_in('word_select', :with => 'hello')
     choose('select', :id => 'exact_select')
-    click_button('Button Text')
+    click_button('Find Match')
     expect(page).to have_content('1')
   end
 end

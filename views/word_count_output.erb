@@ -1,4 +1,8 @@
-<h1>Results</h1>
-<h2>Your sentence: <%= @user_input %></h2>
-<h2>You searched for a(n) <%= @user_search %> match of the word: <%= @user_word %></h2>
-<h2><%= @result %></h2>
+<div id="user-results">
+    <h2 id="user-sentence">Your sentence: </h2>
+    <span><%= @user_input %></span>
+    <h2 id="confirmation">You searched for a(n): </h2>
+    <span2><%= @user_search %></span2> <span3>match of the word: </span3><span2><%= @user_word %></span2>
+    <h2 id="result">Number of Words Matched:</h2>
+    <span4><%= @result %></span4>
+</div>
