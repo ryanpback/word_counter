@@ -32,11 +32,18 @@ input[type="radio"]:checked + label {
   border: 2px solid #fff;
 }
 
-#find-match {
+.btn {
   background-color: #fff;
   color: #534292;
   border-color: #fff;
   margin-top: 10%;
+  font-size: 1.5em;
+}
+
+.btn:hover {
+  background-color: #b4b6ba;
+  color: #fff;
+  border-color: #b4b6ba;
 }
 
 footer {
@@ -85,4 +92,8 @@ span3 {
 
 span4 {
   font-size: 2em
+}
+
+#go-back {
+  margin-top: 10%;
 }
