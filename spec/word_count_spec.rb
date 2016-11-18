@@ -2,7 +2,7 @@ require('rspec')
 require('pry')
 require('word_count.rb')
 
-describe('String#word_count') do
+describe('Fixnum#word_count') do
   it("will count a word if it appears only one time") do
     expect("hello world".word_count("hello")).to(eq(1))
   end
