@@ -33,7 +33,7 @@ It will count as many of the same words no matter the length - partial and speci
 
 * _To view this project, you can read the files located on GitHub_
 * _If you'd like to add to this, please contact me: ryanpback@gmail.com_
-* _To try the program, go to: heroku link_
+* _To try the program, go to: https://evening-meadow-20024.herokuapp.com/_
 
 
 ## Known Bugs
