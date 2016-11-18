@@ -48,7 +48,7 @@ Phone: 415.770.4228_
 
 ## Technologies Used
 
-_HTML, CSS, Javascript, and jQuery_
+_HTML, CSS, Ruby, Sinatra_
 
 ### License
 
