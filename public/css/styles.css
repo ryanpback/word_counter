@@ -50,13 +50,8 @@ footer {
   color: #fff;
   font-size: 1.2em;
   text-align: center;
-}
-
-#footer-row {
-  position: fixed;
-  bottom: 0;
-  left: 50%;
-  transform: translate(-50%,0);
+  margin-bottom: 2%;
+  margin-top: 30%;
 }
 
 /***************************
