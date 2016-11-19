@@ -13,6 +13,20 @@ form {
   text-align: center;
 }
 
+#top-field {
+  padding-top: 5%;
+
+}
+
+#user_string, #word_select{
+  border-color: #534292;
+}
+
+#form-column {
+  background-color: #fff;
+  border-radius: 30px;
+}
+
 .radio-inline input{
   visibility: hidden;
 }
@@ -33,8 +47,8 @@ input[type="radio"]:checked + label {
 }
 
 .btn {
-  background-color: #fff;
-  color: #534292;
+  background-color: #534292;
+  color: #fff;
   border-color: #fff;
   margin-top: 10%;
   font-size: 1.5em;
