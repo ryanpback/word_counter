@@ -1,6 +1,6 @@
 .jumbotron {
   background-color: transparent;
-  color: white;
+  color: #fff;
   text-align: center;
 }
 
@@ -23,7 +23,7 @@ form {
 }
 
 #form-column {
-  background-color: #fff;
+  background-color: transparent;
   border-radius: 30px;
 }
 
