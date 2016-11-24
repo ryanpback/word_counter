@@ -34,7 +34,10 @@ It will count as many of the same words no matter the length - partial and speci
 * _To view this project, you can read the files located on GitHub_
 * _If you'd like to add to this, please contact me: ryanpback@gmail.com_
 * _To try the program, go to: https://evening-meadow-20024.herokuapp.com/_
-
+* _ ------ To replicate this program on your own ----------_
+* _From the terminal run => git clone https://github.com/ryanpback/word_counter_
+* _Then run bundle from the command line_
+* _To run the app, run ruby app.rb from the command line_
 
 ## Known Bugs
 
